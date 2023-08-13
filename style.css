@@ -806,6 +806,16 @@ h4 {
     max-width: 1170px;
   }
 }
+@media screen and (min-width: 1025px) and (max-width: 1250px) {
+  .footer-item-three input {
+    width: 85%;
+  }
+
+  .nav-bar .menu .btn {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   .nav-bar .menu {
     display: none;
@@ -980,6 +990,14 @@ h4 {
   .all-footer {
     flex-wrap: wrap;
   }
+  .left-schedule h5 {
+    font-size: 15px;
+    line-height: 25px;
+  }
+  .right-schedule p {
+    font-size: 18px;
+    line-height: 25px;
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -989,5 +1007,21 @@ h4 {
   .hero h1 {
     font-size: 55px;
     line-height: 60px;
+  }
+  .about .counter .count h5 {
+    font-size: 30px;
+  }
+
+  .about .counter .count p {
+    font-size: 13px;
+  }
+
+  .left-schedule h5 {
+    font-size: 15px;
+    line-height: 25px;
+  }
+  .right-schedule p {
+    font-size: 18px;
+    line-height: 25px;
   }
 }
